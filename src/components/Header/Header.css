@@ -1,0 +1,17 @@
+.friendsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+
+.cartContainer{
+    border: 2px solid white;
+    width: 60%;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(-45deg,cyan, blue);
+    border-image-slice: 1;
+}
+
+
